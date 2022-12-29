@@ -1,0 +1,2 @@
+set(freenove_base_MESSAGE_FILES "/home/pi/catkin_ws/src/freenove_base/msg/motor_msg.msg;/home/pi/catkin_ws/src/freenove_base/msg/line_tracking_msg.msg;/home/pi/catkin_ws/src/freenove_base/msg/servo_msg.msg;/home/pi/catkin_ws/src/freenove_base/msg/led_msg.msg;/home/pi/catkin_ws/src/freenove_base/msg/buzzer_msg.msg;/home/pi/catkin_ws/src/freenove_base/msg/adc_msg.msg;/home/pi/catkin_ws/src/freenove_base/msg/open_cv_control_msg.msg")
+set(freenove_base_SERVICE_FILES "/home/pi/catkin_ws/src/freenove_base/srv/ultrasonic_srv.srv")

@@ -1,0 +1,11 @@
+<launch>
+  <node name="interface2driver" pkg="freenove_base" type="interface2driver.py" launch-prefix="sudo -E PYTHONPATH=$(env PYTHONPATH)">
+    <param name="motor_topic" value="/car/hardware/motor"/>
+    <param name="servo_topic" value="/car/hardware/servo"/>
+    <param name="buzzer_topic" value="/car/hardware/buzzer"/>
+    <param name="line_tracking_topic" value="/car/hardware/line_tracking"/>
+    <param name="adc_topic" value="/car/hardware/adc"/>
+    <param name="ultrasonic_topic" value="/car/hardware/ultrasonic"/>
+    <param name="led_topic" value="/car/hardware/led"/>
+  </node>
+</launch>
